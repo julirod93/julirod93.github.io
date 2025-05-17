@@ -1,32 +1,33 @@
-body {
-  font-family: Georgia, serif;
+/* Reset general */
+* {
   margin: 0;
   padding: 0;
-  background-color: #fefefe;
-  color: #222;
-  line-height: 1.6;
+  box-sizing: border-box;
 }
 
-header {  
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor centrado con ancho máximo */
+.contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header fijo arriba con fondo semi-transparente */
+header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(0,0,0,0.6); /* fondo negro semitransparente */
+  background: rgba(0,0,0,0.6);
   color: white;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
+  z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  z-index: 10; /* para que quede encima */
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-nav {
-  margin-top: 1rem;
 }
 
 nav a {
@@ -35,38 +36,26 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
 
-main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-section {
-  margin-bottom: 3rem;
-}
-
-h2 {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.5rem;
-}
-
-footer {
-  text-align: center;
-  padding: 2rem;
-  background-color: #f0f0f0;
-  color: #555;
-}
-
+/* Sección portada con imagen de fondo */
 #portada {
-  height: 100vh; /* 100% altura ventana */
-  background-image: url('portada.jpg'); /* poné el nombre correcto */
-  background-size: cover; /* cubre sin estirar */
-  background-position: center center; /* centrado */
+  height: 100vh;
+  background-image: url('portada.jpg');
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
+  margin-top: 60px; /* espacio para el header fijo */
   position: relative;
-  margin-top: 60px; /* para no quedar debajo del header fijo (ajustar si cambiás el padding) */
+  display: flex;
+  align-items: center;
+  /* Opcional: para texto centrado verticalmente */
+}
+
+/* Secciones adicionales */
+#obras, #contacto {
+  padding: 4rem 0;
 }
