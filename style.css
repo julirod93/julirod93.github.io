@@ -54,3 +54,15 @@ footer {
   background-color: #f0f0f0;
   color: #555;
 }
+
+#portada-imagen {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#portada-imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* si querés bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
