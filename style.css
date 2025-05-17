@@ -7,7 +7,6 @@
 
 html, body {
   height: 100%;
-  font-family: 'Gelasio', 'Times New Roman', Times, serif;
 }
 
 .contenedor {
@@ -18,7 +17,6 @@ html, body {
 
 header {
   position: absolute;
-  font-family: 'Gelasio', 'Times New Roman', Times, serif;
   top: 0;
   left: 0;
   width: 100%;
@@ -38,7 +36,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Sección portada con imagen de fondo */
 #portada {
   height: 100vh;
   background-image: url('portada.jpg');
@@ -52,4 +49,42 @@ nav a:hover {
 
 #novedades, #bio, #obras, #contacto {
   padding: 2rem 0;
+}
+
+body {
+  font-family: "Fustat", sans-serif;
+  font-size: 16px;
+  color: #2a2a2a;
+  background-color: #fafafa;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: "Fustat", serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Fustat", serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 2em;
+}
+
+h3 {
+  font-family: "Fustat", serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1.5em;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
