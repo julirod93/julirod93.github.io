@@ -9,12 +9,6 @@ html, body {
   height: 100%;
 }
 
-.contenedor {
-  max-width: 1000px;
-  margin:  auto;
-  padding: 0 6rem;
-}
-
 header {
   position: absolute;
   top: 0;
@@ -22,18 +16,17 @@ header {
   width: 100%;
   background: rgba(0, 0, 0, 0);
   color: white;
-  padding: 1rem 0;
+  padding: 2rem 2rem;
   z-index: 10;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  text-decoration: bold;
 }
 
 #portada {
@@ -47,16 +40,26 @@ nav a:hover {
   align-items: center;
 }
 
-#novedades, #bio, #obras, #contacto {
-  padding: 2rem 0;
+.contenedor {
+  max-width: 1000px;
+  margin:  auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#agenda {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: darkslategray;
+  color: #fafafa;
 }
 
 body {
   font-family: "Fustat", sans-serif;
   font-size: 16px;
-  color: #2a2a2a;
+  color: darkslategray;
   background-color: #fafafa;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
@@ -70,21 +73,21 @@ h2 {
   font-family: "Fustat", serif;
   font-size: 22px;
   font-weight: 400;
-  margin-top: 2em;
 }
 
 h3 {
   font-family: "Fustat", serif;
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 1.5em;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 800;
 }
 
 a {
-  color: #0066cc;
+  color: darkslategray;
   text-decoration: none;
 }
 
 a:hover {
+  color: #254545;
   text-decoration: underline;
 }

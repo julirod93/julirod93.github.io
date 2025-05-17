@@ -9,18 +9,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    </head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
 <body>
   <header>
-    <div class="contenedor">
+    <div>
       <h1>Julián Rodríguez</h1>
       <nav>
         <a href="#bio">bio</a>
-        <a href="#obras">obras</a>
-        <a href="#conciertos">conciertos</a>
+        <a href="#obra">obra</a>
+        <a href="#agenda">conciertos</a>
         <a href="#contacto">contacto</a>
       </nav>
-    </div>
   </header>
   <section id="portada">
     <div class="contenedor">
@@ -28,43 +28,37 @@
     </div>
   </section>
 
-  <section id="novedades">
-    <div class="contenedor">
-      <h2>Novedades</h2>
-      <p>Escuchá lo nuevo</p>
-    </div>
-  </section>
-  
-  <section id="bio">
-    <div class="contenedor">
-      <h2>Bio</h2>
-  <p><div>
-<div><strong>Juli&aacute;n Rodr&iacute;guez</strong> es ukelelista y cantante. Naci&oacute; en 1993 en Buenos Aires y desarroll&oacute; su amor por la m&uacute;sica desde temprana edad. A los 15 a&ntilde;os aprendi&oacute; a tocar el ukelele como autodidacta y desde entonces se desempe&ntilde;a como m&uacute;sico en distintas agrupaciones. Public&oacute; una decena de &aacute;lbumes y es autor de tres libros de partituras para ukelele.</div>
+<section id="bio">
+<div class="contenedor">
+<h2><strong>Juli&aacute;n Rodr&iacute;guez</strong> es ukelelista y cantante.</h2>
+<div>
+<div>&nbsp;</div>
+<div>Naci&oacute;&nbsp;en 1993 en Buenos Aires y se interes&oacute; por la m&uacute;sica desde temprana edad. A los 15 a&ntilde;os aprendi&oacute; a tocar el ukelele como autodidacta y desde entonces se desempe&ntilde;a como m&uacute;sico en distintas agrupaciones. Public&oacute; una decena de &aacute;lbumes y es autor de tres libros de partituras para ukelele.</div>
 <br />
-<div>Adem&aacute;s de su carrera art&iacute;stica, Juli&aacute;n es un profesor de m&uacute;sica egresado de la Escuela de M&uacute;sica Popular de Avellaneda y ofrece clases particulares de ukelele y lenguaje musical.</div>
-</div></p>
-    </div>
-  </section>
-  
-  <section id="obras">
-    <div class="contenedor">
-      <h2>Obras</h2>
-      <p>Aquí podés poner las obras que quieras mostrar.</p>
-    </div>
-  </section>
+<div>Adem&aacute;s de su carrera art&iacute;stica, Juli&aacute;n es <strong>profesor de m&uacute;sica</strong> egresado de la <strong>Escuela de M&uacute;sica Popular de Avellaneda</strong> y ofrece clases particulares de ukelele y lenguaje musical.</div>
+</div>
+</div>
+</section>
 
-  <section id="conciertos">
-    <div class="contenedor">
-      <h2>Próximos conciertos</h2>
-      <p>Aquí podés poner las obras que quieras mostrar.</p>
+
+  <section id="agenda">
+<div>
+<script>
+  fetch("agenda.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("agenda").innerHTML = data;
+    });
+</script>
     </div>
   </section>
 
   <section id="contacto">
     <div class="contenedor">
       <h2>Contacto</h2>
-      <p>Email: julian@example.com</p>
-      <p>Teléfono: +54 9 11 1234 5678</p>
+        <a href="https://www.youtube.com/user/julianrodriguezf" class="page"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="https://instagram.com/julianrodriguezf" class="page"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="https://open.spotify.com/artist/3SPojepQtbPrEKueaAnnpf?si=5MjwM7pER5-r9PEjgKBeIA" class="page"><i class="fab fa-spotify fa-lg"></i></a>
     </div>
   </section>
 </body>
