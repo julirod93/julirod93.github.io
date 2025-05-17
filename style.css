@@ -19,7 +19,6 @@ html, body {
 
 /* Header fijo arriba con fondo semi-transparente */
 header {
-  position: fixed;
   top: 0;
   width: 100%;
   background: rgba(0,0,0,0.6);
@@ -50,11 +49,10 @@ nav a:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  margin-top: 0px; /* espacio para el header fijo */
+  margin-top: 0px;
   position: relative;
   display: flex;
   align-items: center;
-  /* Opcional: para texto centrado verticalmente */
 }
 
 /* Secciones adicionales */
