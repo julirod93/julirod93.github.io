@@ -50,7 +50,7 @@ nav a:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  margin-top: 60px; /* espacio para el header fijo */
+  margin-top: 0px; /* espacio para el header fijo */
   position: relative;
   display: flex;
   align-items: center;
