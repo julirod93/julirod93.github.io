@@ -20,6 +20,18 @@ header {
   z-index: 10;
 }
 
+.pag-header {
+  position: initial;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: darkslategray;
+  color: #fafafa;
+  margin:  auto;
+  padding: 2rem 2rem;
+  padding-top: 1em;
+  padding-bottom: 1em;}
+
 nav a {
   color: white;
   text-decoration: none;
@@ -43,11 +55,13 @@ nav a:hover {
 .contenedor {
   max-width: 1000px;
   margin:  auto;
+  padding: 2rem 2rem;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
 #agenda {
+  padding: 2em 2em;
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: darkslategray;
@@ -63,6 +77,15 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.site-footer {
+  text-align: center;
+  padding: 2em 1em;
+  font-family: "Fustat", sans-serif;
+  font-size: 0.9rem;
+  color: darkslategray;
+}
+
 h1 {
   font-family: "Fustat", serif;
   font-size: 36px;
@@ -90,4 +113,24 @@ a {
 a:hover {
   color: #254545;
   text-decoration: underline;
+}
+
+#agenda a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #f1f1f1;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

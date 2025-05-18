@@ -21,37 +21,6 @@
         <a href="#contacto">contacto</a>
       </nav>
   </header>
-  <section id="portada">
-    <div class="contenedor">
-      <!-- Si querés texto sobre la imagen, lo ponés acá -->
-    </div>
-  </section>
-
-<section id="bio">
-<div>
-<script>
-  fetch("bio.html")
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById("bio").innerHTML = data;
-    });
-</script>
-    </div>
-</section>
-
-
-  <section id="agenda">
-<div>
-<script>
-  fetch("agenda.html")
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById("agenda").innerHTML = data;
-    });
-</script>
-    </div>
-  </section>
-
 <footer class="site-footer">
     <a href="https://www.youtube.com/user/julianrodriguezf" class="page"><i class="fab fa-youtube fa-lg"></i></a>&nbsp;
         <a href="https://instagram.com/julianrodriguezf" class="page"><i class="fab fa-instagram fa-lg"></i></a>&nbsp;
