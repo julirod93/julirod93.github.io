@@ -8,19 +8,18 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Fustat:wght@200..800&family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/2e0ab300b3.js" crossorigin="anonymous"></script></head>
 <body>
   <header>
-    <div class="contenedor">
-      <h1><a href="index.html">Julián Rodríguez</a></h1>
-      <nav>
+      <h1 style="max-width: 1000px; margin: auto;"><a href="index.html">Julián Rodríguez</a></h1>
+      <nav style="max-width: 1000px; margin: auto;">
         <a href="biografia.html">bio</a>
-        <a href="#obra">obra</a>
-        <a href="index.html#agenda">conciertos</a>
+        <a href="obra.html">obra</a>
+        <a href="index.html#agenda">agenda</a>
+        <a href="https://payhip.com/julianrodriguezf">tienda</a>
         <a href="#contacto">contacto</a>
       </nav>
-    </div>
   </header>
   <section id="portada">
     <div class="contenedor">
@@ -31,7 +30,7 @@
 <section id="bio">
 <div>
 <script>
-  fetch("bio.html")
+  fetch("contenido_bio.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("bio").innerHTML = data;
@@ -44,7 +43,7 @@
   <section id="agenda">
 <div>
 <script>
-  fetch("agenda.html")
+  fetch("contenido_agenda.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("agenda").innerHTML = data;
@@ -63,6 +62,15 @@
     });
 </script>
     </div>
+  </section>
+
+ <section id="contacto">
+<div class="contenedor" style="text-align: center;">
+<h2>¡Escribime!</h2>
+<div><i class="fa-brands fa-whatsapp"></i>&nbsp;+54 9 11 4023 4087</div>
+<div><a href="https://www.instagram.com/julianrodriguezf"><i class="fa-brands fa-instagram"></i>&nbsp;@julianrodriguezf</a></div>
+<div><i class="fa-regular fa-envelope"></i>&nbsp;julirod93@gmail.com</div>
+</div>
   </section>
 
 <footer class="site-footer">

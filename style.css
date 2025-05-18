@@ -15,7 +15,7 @@ header {
   left: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0);
-  color: white;
+  color: fafafa;
   padding: 2rem 2rem;
   z-index: 10;
 }
@@ -33,7 +33,7 @@ header {
   padding-bottom: 0.4em;}
 
 nav a {
-  color: white;
+  color: fafafa;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ nav a:hover {
 }
 
 #portada {
-  height: 100vh;
+  height: 86vh;
   background-image: url('portada.jpg');
   background-size: cover;
   background-position: center center;
@@ -60,7 +60,7 @@ nav a:hover {
   padding-bottom: 1em;
 }
 
-#agenda {
+#agenda, #contacto {
   padding: 2em 2em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -120,13 +120,18 @@ a:hover {
   text-decoration: none;
 }
 
+#contacto a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
 header a {
-  color: #f1f1f1;
+  color: #fafafa;
   text-decoration: none;
 }
 
 header a:hover {
-  color: #f1f1f1;
+  color: #fafafa;
   text-decoration: none;
 }
 
@@ -178,3 +183,39 @@ ul {
   br {
     line-height: 5px;
  }
+
+ .dm-mono-light {
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.dm-mono-regular {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-mono-medium {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dm-mono-light-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.dm-mono-regular-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.dm-mono-medium-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
