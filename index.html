@@ -12,14 +12,15 @@
 <script src="https://kit.fontawesome.com/2e0ab300b3.js" crossorigin="anonymous"></script></head>
 <body>
   <header>
-    <div>
-      <h1>Julián Rodríguez</h1>
+    <div class="contenedor">
+      <h1><a href="index.html">Julián Rodríguez</a></h1>
       <nav>
-        <a href="#bio">bio</a>
+        <a href="biografia.html">bio</a>
         <a href="#obra">obra</a>
-        <a href="#agenda">conciertos</a>
+        <a href="index.html#agenda">conciertos</a>
         <a href="#contacto">contacto</a>
       </nav>
+    </div>
   </header>
   <section id="portada">
     <div class="contenedor">
@@ -47,6 +48,18 @@
     .then(response => response.text())
     .then(data => {
       document.getElementById("agenda").innerHTML = data;
+    });
+</script>
+    </div>
+  </section>
+
+  <section id="videos">
+<div>
+<script>
+  fetch("videos.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("videos").innerHTML = data;
     });
 </script>
     </div>
