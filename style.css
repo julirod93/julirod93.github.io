@@ -240,13 +240,13 @@ ul {
 
 /* Embed Spotify */
 .album-embed {
-  flex: 1 1 300px;
+  flex: 1 1;
   min-width: 280px;
 }
 
 /* Texto */
 .album-info {
-  flex: 1 1 300px;
+  flex: 1 1;
   min-width: 280px;
 }
 
@@ -288,5 +288,37 @@ ul {
   .album-embed,
   .album-info {
     width: 100%;
+    margin: 0;
+    padding: 0,5rem 0;
+  }
+}
+
+/* CSS */
+.contacto-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.contacto-info,
+.contacto-imagen {
+  flex: 1 1 45%; /* Permite que se acomoden lado a lado o se apilen en pantallas chicas */
+  min-width: 300px;
+}
+
+.contacto-imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* En pantallas pequeñas, se apilan automáticamente */
+@media (max-width: 768px) {
+  .contacto-container {
+    flex-direction: column;
+    text-align: center;
   }
 }
