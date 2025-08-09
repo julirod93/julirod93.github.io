@@ -1,0 +1,24 @@
+MODELO PARA AGENDA
+
+    <div class="contenedor">
+      <h2>Próximos conciertos</h2>
+<ul>
+    <li>
+        <h3>
+            25 de julio, 20:00 / NEMPLA (Av. Jorge Newbery 3907, CABA)
+        </h3>
+        <p>
+            <strong>Concierto de Ukelelistas</strong>. Presentación del álbum "Ukelelistas" junto con Thiago Susán, Carolina Calienes y Nicolás Ferreira. <a href="https://www.passline.com/sitio-evento/ukelelistas"><i class="fa-solid fa-ticket"></i></a>
+        </p>
+    </li>
+    
+    <li>
+        <h3>
+            1 de agosto, 19:00 / Cine-Teatro Leonardo Favio (La Florida 574, Santa Clara del Mar, Provincia de Buenos Aires)
+        </h3>
+        <p>
+            <strong>Concierto de Ukelelistas</strong>. Presentación del álbum "Ukelelistas" junto con Thiago Susán, Carolina Calienes y Nicolás Ferreira.
+        </p>
+    </li>
+</ul>
+</div>
