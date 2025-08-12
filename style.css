@@ -26,7 +26,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: darkslategray;
+  background-color: #123524;
   color: #fafafa;
   padding-top: 0.2em;
   padding-bottom: 0.2em;}
@@ -63,14 +63,14 @@ nav a:hover {
   padding: 2em 2em;
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: darkslategray;
+  background-color: #123524;
   color: #fafafa;
 }
 
 body {
   font-family: "Fustat", sans-serif;
   font-size: 16px;
-  color: darkslategray;
+  color: #123524;
   background-color: #fafafa;
   line-height: 1.8;
   margin: 0;
@@ -82,7 +82,7 @@ body {
   padding: 2em 1em;
   font-family: "Fustat", sans-serif;
   font-size: 0.9rem;
-  color: darkslategray;
+  color: #123524;
 }
 
 h1 {
@@ -105,11 +105,11 @@ h3 {
 }
 
 a {
-  color: darkslategray;
+  color: #123524;
 }
 
 a:hover {
-  color: #61A4A4;
+  color: #829489;
 }
 
 #agenda a {
@@ -128,7 +128,7 @@ a:hover {
 }
 
 #contacto a:hover {
-  color: #61A4A4;
+  color: #829489;
   text-decoration: underline;
 }
 
@@ -276,7 +276,7 @@ ul {
 
 /* Sección de colaboraciones con fondo oscuro */
 .collaborations {
-  background-color: darkslategray !important;
+  background-color: #123524 !important;
 }
 
 .collaborations .album-info h2,
