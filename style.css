@@ -34,6 +34,7 @@ header {
 nav a {
   color: fafafa;
   text-decoration: none;
+  text-shadow: 1px 1px 4px BLACK;
 }
 
 nav a:hover {
@@ -44,11 +45,9 @@ nav a:hover {
   height: 86vh;
   background-image: url('portada.jpg');
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
+  background-position: center center;
   position: relative;
-  display: flex;
-  align-items: center;
 }
 
 .contenedor {
@@ -89,6 +88,7 @@ h1 {
   font-family: "Fustat", serif;
   font-size: 32px;
   font-weight: 400;
+  text-shadow: 1px 1px 4px BLACK;
 }
 
 h2 {
